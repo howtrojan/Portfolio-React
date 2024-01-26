@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.b04d3291.css",
+    "main.js": "/Portfolio-React/static/js/main.5c7624cd.js",
+    "static/media/imagem-topo.jpg": "/Portfolio-React/static/media/imagem-topo.eed8bfd8eace27f25ac0.jpg",
+    "static/media/imagemperfil.jpg": "/Portfolio-React/static/media/imagemperfil.91f12b5f3b0c65d7da61.jpg",
+    "static/media/HTML5.png": "/Portfolio-React/static/media/HTML5.df69503917a05a968e58.png",
+    "static/media/React.png": "/Portfolio-React/static/media/React.b37f0a4b7134b3c99d6e.png",
+    "static/media/Javascript.png": "/Portfolio-React/static/media/Javascript.621f6061172a58343b60.png",
+    "static/media/CSS.png": "/Portfolio-React/static/media/CSS.57feb85c31eec0ff2e1a.png",
+    "static/media/github-icon.svg": "/Portfolio-React/static/media/github-icon.b40b1c0378274f892133dea1253e8aa8.svg",
+    "index.html": "/Portfolio-React/index.html",
+    "static/media/linkedin-square-icon.svg": "/Portfolio-React/static/media/linkedin-square-icon.62cdffc5babbaf99899c8fee18e36b65.svg",
+    "main.b04d3291.css.map": "/Portfolio-React/static/css/main.b04d3291.css.map",
+    "main.5c7624cd.js.map": "/Portfolio-React/static/js/main.5c7624cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b04d3291.css",
+    "static/js/main.5c7624cd.js"
+  ]
+}
