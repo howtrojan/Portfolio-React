@@ -13,10 +13,10 @@ export const TopSection = () => {
                 <h1>Front End Developer</h1>
                 <p>Em busca da minha primeira opotunidade como programador Front End.</p>
                 <div className='top-icons'>
-                    <a href="https://github.com/howtrojan/" target="_blank">
+                    <a href="https://github.com/howtrojan/" target="_blank" rel="noreferrer">
                         <img src={github} alt="Github Imagem" />
                     </a>
-                    <a href="https://www.linkedin.com/in/andresantosbraga/" target="_blank">
+                    <a href="https://www.linkedin.com/in/andresantosbraga/" target="_blank" rel="noreferrer">
                         <img src={linkedin} alt="Linkedin Imagem" />
                     </a>
                 </div>
