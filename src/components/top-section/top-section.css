@@ -1,0 +1,44 @@
+.top-section{   
+    display: flex;
+    justify-content: space-around; 
+    padding: 8rem 4rem;
+    background-color: #E6E9ED;
+    height: 100vh;
+}
+
+.top-titulo{
+    padding: 3rem;
+    text-align:start;    
+}
+
+.top-titulo h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;    
+}
+
+.top-titulo p{
+    font-size: 2rem; 
+}
+.top-icons{
+    display: flex;    
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 5rem ;
+}
+
+.top-icons a img{
+    width: 3rem;
+}
+
+.top-icons a img:hover{
+    opacity: 70%;
+}
+
+.top-imagem img{
+    width: 25rem;
+    border-radius: 20%;
+    margin:auto ;
+    padding: 3rem;
+}
