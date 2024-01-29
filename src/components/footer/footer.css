@@ -1,0 +1,24 @@
+footer{
+    background-color: #E6E9ED ;
+    padding: 2rem;
+}
+
+h3{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+p{
+    margin: 1rem 0;
+}
+
+.contact-info-msg{
+    display: flex;
+}
+
+#icone{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    
+}

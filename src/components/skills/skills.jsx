@@ -39,11 +39,11 @@ export const Skills = () => {
     <div style={props} className="skills-section">
       <h1 className='titulo-skills' id='skills'>CONHECIMENTOS</h1>
       <div className='skills'>
-      <Tecnology img={HTML} alt="HTML5" name="HTML5" />
-      <Tecnology img={CSS} alt="CSS3" name="CSS3" />
-      <Tecnology img={JAVASCRIPT} alt="JAVASCRIPT" name="JAVASCRIPT" />
-      <Tecnology img={BOOTSTRAP} alt="BOOTSTRAP" name="BOOTSTRAP" />
-      <Tecnology img={REACT} alt="REACT" name="REACT" />      
+      <Tecnology className="skill" img={HTML} alt="HTML5" name="HTML5" />
+      <Tecnology className="skill" img={CSS} alt="CSS3" name="CSS3" />
+      <Tecnology className="skill" img={JAVASCRIPT} alt="JAVASCRIPT" name="JAVASCRIPT" />
+      <Tecnology className="skill" img={BOOTSTRAP} alt="BOOTSTRAP" name="BOOTSTRAP" />
+      <Tecnology className="skill" img={REACT} alt="REACT" name="REACT" />      
       </div>
     </div>
   );

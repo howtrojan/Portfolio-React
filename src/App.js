@@ -5,9 +5,7 @@ import { TopSection } from './components/top-section/top-section';
 import { About } from './components/about/about';
 import { Skills } from './components/skills/skills';
 import {ProjectsSession} from './components/projects/projects'
-
-
-
+import {Footer} from './components/footer/footer';
 
 function App() {
   return (   <>
@@ -16,6 +14,7 @@ function App() {
    <About/>
    <Skills/>   
    <ProjectsSession/>
+   <Footer/>
   </>
   )}
 

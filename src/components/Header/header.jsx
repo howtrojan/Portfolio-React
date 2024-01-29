@@ -73,7 +73,16 @@ export const Header = () => {
         </div>        
         <div className="nav-secundary">
           <ul>
-            <li>CONTATO</li>
+          <li>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+                >CONTATO</Link>
+            </li>
           </ul>
         </div>
       </nav>
