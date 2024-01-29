@@ -1,35 +1,35 @@
 .top-section{   
     display: flex;
     justify-content: space-around; 
-    padding: 8rem 4rem;
+    padding: 8em 4em;
     background-color: #E6E9ED;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .top-titulo{
-    padding: 3rem;
+    padding: 3em;
     text-align:start;    
 }
 
 .top-titulo h1{
-    font-size: 3rem;
+    font-size: 3em;
     text-align: center;
-    margin-bottom: 2rem;    
+    margin-bottom: 2em;    
 }
 
 .top-titulo p{
-    font-size: 2rem; 
+    font-size: 2em; 
 }
 .top-icons{
     display: flex;    
     gap: 2rem;
     margin: 0 auto;
     justify-content: center;
-    padding-top: 5rem ;
+    padding-top: 5em ;
 }
 
 .top-icons a img{
-    width: 3rem;
+    width: 3em;
 }
 
 .top-icons a img:hover{
@@ -37,10 +37,10 @@
 }
 
 .top-imagem img{
-    width: 25rem;
+    width: 25em;
     border-radius: 20%;
     margin:auto ;
-    padding: 3rem;
+    padding: 3em;
 }
 
 @media screen and (max-width: 992px) {
@@ -48,13 +48,13 @@
         flex-direction: column;
         padding: 0;
         margin: 0;     
-        padding: 3rem 0;   
+        padding: 3em 0;   
     }
 
     .top-titulo{
-        padding: 1rem 0;  
+        padding: 1em 0;  
         text-align: center;   
-        margin-top: 3rem;           
+        margin-top: 3em;           
     }
 
     .top-titulo h1{
@@ -67,6 +67,6 @@
     }
 
     .top-imagem img{
-        padding: 3rem;
+        padding: 3em;
     }
   }

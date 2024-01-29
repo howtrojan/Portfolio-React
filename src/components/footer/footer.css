@@ -1,15 +1,15 @@
 footer{
     background-color: #E6E9ED ;
-    padding: 2rem;
+    padding: 2em;
 }
 
 h3{
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 p{
-    margin: 1rem 0;
+    margin: 1em 0;
 }
 
 .contact-info-msg{
@@ -17,8 +17,7 @@ p{
 }
 
 #icone{
-    width: 2rem;
-    height: 2rem;
-    margin-right: 1rem;
-    
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;    
 }

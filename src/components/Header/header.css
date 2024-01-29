@@ -2,10 +2,10 @@
     background-color: #282C36;
     color: #f6f6f6;
     display: flex;
-    font-size: 1rem;
-    min-height: 3rem; 
+    font-size: 1em;
+    min-height: 3em; 
     align-items: center;
-    padding: 0.2rem 1rem;
+    padding: 0.2em 1em;
     justify-content: space-between;    
     width: 100%;
     position: fixed;
@@ -15,7 +15,7 @@
 .nav-secundary{
     border: 2px #fafafa solid;
     border-radius: 2rem;
-    padding: 0.5rem;    
+    padding: 0.5em;    
     color: #f6f6f6;
     cursor: pointer;    
 }
@@ -26,7 +26,7 @@
 }
 
 .nav-primary ul{
-    gap: 1rem;
+    gap: 1em;
     display: flex;    
     list-style: none;    
     cursor: pointer;  
@@ -56,8 +56,8 @@
         height: auto; 
         justify-content: flex-start; 
         align-items: start;
-        gap: 0.5rem;
-        padding-bottom: 0.5rem;
+        gap: 0.5em;
+        padding-bottom: 0.5em;
     }
 
     .nav-secundary {
