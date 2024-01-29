@@ -1,34 +1,42 @@
+.skills-section {    
+  margin: 0 auto;
+  background-color: #e6e9ed;
+  overflow: auto;
+}
+
 .titulo-skills {
   font-size: 2em;
   text-align: center;
-  margin: 2em auto 2em auto;
-  font-weight: 400;
+  margin: 2em auto 4em auto;
+  font-weight: 400;  
+  height: 50%;
 }
 
 .skills {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 1.5em;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
-  padding:3em 0;
+  margin: auto; 
+  height: 50%;
+  padding: 8em 2em 10em 2em;
+  
 }
 
-.skills-section {
-  min-height: 100%;
-  background-color: #e6e9ed;
-  overflow: auto;
-}
+
 
 @media screen and (max-width: 992px) {
   .skills {
     grid-template-columns: repeat(3, 1fr);
-    padding-bottom: 1em;
+    margin-bottom: 4em;
+    padding: 0;
   }
 
   .titulo-skills {
     margin: 1em;
     font-weight: 500;
+    
   }
 }
 
