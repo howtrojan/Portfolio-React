@@ -30,7 +30,7 @@ export const About = () => {
   }, []);
 
   return (
-    <animated.section style={props} className="about-section" >        
+    <div style={props} className="about-section" >        
     <h1 className='titulo-about' id="about">SOBRE</h1>
       <div className="about-section-img"  >
         <img src={imagem} alt="" />
@@ -47,6 +47,6 @@ export const About = () => {
           profissionalmente.
         </p>
       </div>      
-    </animated.section>
+    </div>
   );
 };

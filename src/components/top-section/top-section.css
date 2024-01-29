@@ -3,7 +3,7 @@
     justify-content: space-around; 
     padding: 8rem 4rem;
     background-color: #E6E9ED;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .top-titulo{
@@ -42,3 +42,30 @@
     margin:auto ;
     padding: 3rem;
 }
+
+@media screen and (max-width: 992px) {
+    .top-section{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;     
+        padding: 3rem 0;   
+    }
+
+    .top-titulo{
+        padding: 1rem 0;  
+        text-align: center;      
+    }
+
+    .top-imagem{
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-imagem img{
+        padding: 3rem;
+    }
+  }
+
+@media screen and (max-width: 770px) {
+    
+  }

@@ -1,0 +1,41 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #282C36;
+    padding: 4rem;    
+    margin: 0 auto;
+    width: 100%;
+}
+
+.projects h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 4rem auto 8rem auto;
+    font-weight: 400;
+    color: #f6f6f6;
+}
+
+.projects-session{       
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;    
+    align-items: center;  
+    justify-content: center;  
+}
+
+.projects-cards{       
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .projects-session{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+@media screen and (max-width: 770px) {
+    .projects-session{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }  

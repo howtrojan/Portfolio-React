@@ -3,9 +3,9 @@
     color: #f6f6f6;
     display: flex;
     font-size: 1rem;
-    height: 3rem; 
+    min-height: 3rem; 
     align-items: center;
-    padding: 0 1rem;
+    padding: 0.2rem 1rem;
     justify-content: space-between;    
     width: 100%;
     position: fixed;
@@ -50,6 +50,14 @@
     cursor: pointer;
     opacity: 70%;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation{
+        flex-direction: column;
+    }    
+  }
+
+
 
 
 

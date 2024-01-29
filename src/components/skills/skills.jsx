@@ -20,23 +20,23 @@ export const Skills = () => {
   useEffect(() => {
     const handleScroll = () => {
       const aboutSection = document.getElementById('skills');
-      const windowHeight = window.innerHeight;
       const rect = aboutSection.getBoundingClientRect();
-      const isSectionVisible = rect.top <= windowHeight && rect.bottom >= 0;
-
+      const isSectionVisible = rect.top >= 0 && rect.top <= window.innerHeight;
+  
       setIsVisible(isSectionVisible);
     };
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     // Cleanup do event listener quando o componente é desmontado
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
 
   return (
-    <animated.section style={props} className="skills-section">
+    <div style={props} className="skills-section">
       <h1 className='titulo-skills' id='skills'>CONHECIMENTOS</h1>
       <div className='skills'>
       <Tecnology img={HTML} alt="HTML5" name="HTML5" />
@@ -45,6 +45,6 @@ export const Skills = () => {
       <Tecnology img={BOOTSTRAP} alt="BOOTSTRAP" name="BOOTSTRAP" />
       <Tecnology img={REACT} alt="REACT" name="REACT" />      
       </div>
-    </animated.section>
+    </div>
   );
 };

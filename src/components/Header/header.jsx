@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../Header/header.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Header = () => {
+    const [showMenu, setShowMenu] = useState(false);
     useEffect(() => {
         // Adicione um pequeno delay antes de rolar
         const timeout = setTimeout(() => {
@@ -22,6 +23,11 @@ export const Header = () => {
     <>
       <nav className="navigation">
         <div className="nav-primary">
+          <div className="hamburger-icon" onClick={() => setShowMenu(!showMenu)}>
+            
+            
+            
+          </div>
           <ul>
           <li>
               <Link
@@ -30,7 +36,7 @@ export const Header = () => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-60}
+                offset={-80}
               >INICIO</Link>
             </li>
             <li>
@@ -40,7 +46,7 @@ export const Header = () => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-120}
+                offset={-80}
               >SOBRE</Link>
             </li>
             <li>
@@ -55,12 +61,12 @@ export const Header = () => {
             </li>
             <li>
               <Link
-                to="projetos"
+                to="projects"
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-60}
+                offset={-80}
                 >PROJETOS</Link>
             </li>
           </ul>
