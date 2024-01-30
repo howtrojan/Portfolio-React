@@ -9,12 +9,19 @@ import Gitfinder from "../../assets/gitfinder.PNG";
 import Pokedex from "../../assets/pokedex.png";
 import Dukeza from "../../assets/appdukeza.PNG";
 import port from "../../assets/portifolio.PNG";
+import login from "../../assets/login.PNG";
 import './projects.css'
 
 export const ProjectsSession = () => {
   const [displayedProjects, setDisplayedProjects] = useState(3);
 
   const projectsData = [
+    {
+      src: login,
+      alt: "Página Login React",
+      description: "Página de login feita totalmente em React para fins de aprendizado junto ao canal do Jovem Programador.",      
+      repositorio: "https://github.com/howtrojan/Formulario-Login-React/"
+    },
     {
       src: Dukeza,
       alt: "App Dukeza",
