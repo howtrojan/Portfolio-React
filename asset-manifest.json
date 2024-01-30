@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ce208f58.css",
-    "main.js": "/static/js/main.a0c06366.js",
+    "main.js": "/static/js/main.d82420f5.js",
     "static/media/imagem-topo.jpg": "/static/media/imagem-topo.eed8bfd8eace27f25ac0.jpg",
     "static/media/homemaranha.PNG": "/static/media/homemaranha.ed1e38d5c990b15539d3.PNG",
     "static/media/portifolio.PNG": "/static/media/portifolio.b9b830e3bc5d973c81fe.PNG",
@@ -11,6 +11,7 @@
     "static/media/bateria.PNG": "/static/media/bateria.2af125807135a1b96d91.PNG",
     "static/media/gitfinder.PNG": "/static/media/gitfinder.4b81b3747ee753a5062d.PNG",
     "static/media/dados.png": "/static/media/dados.2b8457e8ca880de034f3.png",
+    "static/media/login.PNG": "/static/media/login.38680f91cf9ade8eeb62.PNG",
     "static/media/HTML5.png": "/static/media/HTML5.df69503917a05a968e58.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.fdd4b7007148bcf6ce48.png",
     "static/media/React.png": "/static/media/React.b37f0a4b7134b3c99d6e.png",
@@ -23,10 +24,10 @@
     "static/media/linkedin-square-icon.svg": "/static/media/linkedin-square-icon.62cdffc5babbaf99899c8fee18e36b65.svg",
     "index.html": "/index.html",
     "main.ce208f58.css.map": "/static/css/main.ce208f58.css.map",
-    "main.a0c06366.js.map": "/static/js/main.a0c06366.js.map"
+    "main.d82420f5.js.map": "/static/js/main.d82420f5.js.map"
   },
   "entrypoints": [
     "static/css/main.ce208f58.css",
-    "static/js/main.a0c06366.js"
+    "static/js/main.d82420f5.js"
   ]
 }
