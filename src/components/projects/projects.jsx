@@ -10,12 +10,20 @@ import Pokedex from "../../assets/pokedex.png";
 import Dukeza from "../../assets/appdukeza.PNG";
 import port from "../../assets/portifolio.PNG";
 import login from "../../assets/login.PNG";
+import carrinho from "../../assets/ShoppingCart.PNG"
 import './projects.css'
 
 export const ProjectsSession = () => {
   const [displayedProjects, setDisplayedProjects] = useState(3);
 
   const projectsData = [
+    {
+      src: carrinho,
+      alt: "Carrinho de Compras com React JS",
+      description: "Carrinho de compras desenvolvido utilizando React JS.",  
+      deploy: "https://shopping-cart-seven-flax.vercel.app/",    
+      repositorio: "https://github.com/howtrojan/shopping-cart"
+    },
     {
       src: login,
       alt: "Página Login React",
