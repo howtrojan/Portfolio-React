@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.ce208f58.css",
-    "main.js": "/static/js/main.d82420f5.js",
+    "main.js": "/static/js/main.dfa358e7.js",
     "static/media/imagem-topo.jpg": "/static/media/imagem-topo.eed8bfd8eace27f25ac0.jpg",
     "static/media/homemaranha.PNG": "/static/media/homemaranha.ed1e38d5c990b15539d3.PNG",
     "static/media/portifolio.PNG": "/static/media/portifolio.b9b830e3bc5d973c81fe.PNG",
+    "static/media/ShoppingCart.PNG": "/static/media/ShoppingCart.c03c66cae2052ef52b88.PNG",
     "static/media/appdukeza.PNG": "/static/media/appdukeza.120d949103994ac9e07f.PNG",
     "static/media/imagemperfil.jpg": "/static/media/imagemperfil.91f12b5f3b0c65d7da61.jpg",
     "static/media/pokedex.png": "/static/media/pokedex.cca078d9227a6ac5fbf0.png",
@@ -24,10 +25,10 @@
     "static/media/linkedin-square-icon.svg": "/static/media/linkedin-square-icon.62cdffc5babbaf99899c8fee18e36b65.svg",
     "index.html": "/index.html",
     "main.ce208f58.css.map": "/static/css/main.ce208f58.css.map",
-    "main.d82420f5.js.map": "/static/js/main.d82420f5.js.map"
+    "main.dfa358e7.js.map": "/static/js/main.dfa358e7.js.map"
   },
   "entrypoints": [
     "static/css/main.ce208f58.css",
-    "static/js/main.d82420f5.js"
+    "static/js/main.dfa358e7.js"
   ]
 }
