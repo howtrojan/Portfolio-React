@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce208f58.css",
-    "main.js": "/static/js/main.dfa358e7.js",
+    "main.css": "/static/css/main.f7a2103c.css",
+    "main.js": "/static/js/main.1791ddd1.js",
     "static/media/imagem-topo.jpg": "/static/media/imagem-topo.eed8bfd8eace27f25ac0.jpg",
     "static/media/homemaranha.PNG": "/static/media/homemaranha.ed1e38d5c990b15539d3.PNG",
     "static/media/portifolio.PNG": "/static/media/portifolio.b9b830e3bc5d973c81fe.PNG",
@@ -21,14 +21,16 @@
     "static/media/calculadora.png": "/static/media/calculadora.078c5648d66e045dd287.png",
     "static/media/CSS.png": "/static/media/CSS.57feb85c31eec0ff2e1a.png",
     "static/media/cores.png": "/static/media/cores.426c71db797a82b45f35.png",
+    "static/media/typescript-icon.svg": "/static/media/typescript-icon.0553733a9d433cefaf9e04ffcde0eb7a.svg",
     "static/media/github-icon.svg": "/static/media/github-icon.b40b1c0378274f892133dea1253e8aa8.svg",
+    "static/media/tailwind-css.svg": "/static/media/tailwind-css.681db3393706b0b8d30fa63229e8ee85.svg",
     "static/media/linkedin-square-icon.svg": "/static/media/linkedin-square-icon.62cdffc5babbaf99899c8fee18e36b65.svg",
     "index.html": "/index.html",
-    "main.ce208f58.css.map": "/static/css/main.ce208f58.css.map",
-    "main.dfa358e7.js.map": "/static/js/main.dfa358e7.js.map"
+    "main.f7a2103c.css.map": "/static/css/main.f7a2103c.css.map",
+    "main.1791ddd1.js.map": "/static/js/main.1791ddd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce208f58.css",
-    "static/js/main.dfa358e7.js"
+    "static/css/main.f7a2103c.css",
+    "static/js/main.1791ddd1.js"
   ]
 }
