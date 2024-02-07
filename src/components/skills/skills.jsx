@@ -7,6 +7,8 @@ import CSS from '../../assets/CSS.png';
 import JAVASCRIPT from '../../assets/Javascript.png';
 import BOOTSTRAP from '../../assets/Bootstrap.png';
 import REACT from '../../assets/React.png';
+import TAILWIND from '../../assets/tailwind-css.svg';
+import TYPESCRIPT from '../../assets/typescript-icon.svg';
 
 export const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,8 +44,10 @@ export const Skills = () => {
       <Tecnology className="skill" img={HTML} alt="HTML5" name="HTML5" />
       <Tecnology className="skill" img={CSS} alt="CSS3" name="CSS3" />
       <Tecnology className="skill" img={JAVASCRIPT} alt="JAVASCRIPT" name="JAVASCRIPT" />
+      <Tecnology className="skill" img={TYPESCRIPT} alt="TYPESCRIPT" name="TYPESCRIPT" />
+      <Tecnology className="skill" img={REACT} alt="REACT" name="REACT" />
       <Tecnology className="skill" img={BOOTSTRAP} alt="BOOTSTRAP" name="BOOTSTRAP" />
-      <Tecnology className="skill" img={REACT} alt="REACT" name="REACT" />      
+      <Tecnology className="skill" img={TAILWIND} alt="TAILWIND" name="TAILWIND" />            
       </div>
     </div>
   );

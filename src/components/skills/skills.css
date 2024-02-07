@@ -1,27 +1,23 @@
 .skills-section {    
   margin: 0 auto;
   background-color: #e6e9ed;
-  overflow: auto;
-}
+  overflow: hidden;
+  }
 
 .titulo-skills {
   font-size: 2em;
   text-align: center;
-  margin: 2em auto 4em auto;
-  font-weight: 400;  
-  height: 50%;
+  margin: 2em auto;
+  font-weight: 400;    
 }
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.5em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1.3em;
   justify-content: space-around;
   align-items: center;
-  margin: auto; 
-  height: 50%;
-  padding: 8em 2em 10em 2em;
-  
+  margin: 12% 2rem;   
 }
 
 
