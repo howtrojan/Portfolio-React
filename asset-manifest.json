@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4616fe0b.css",
-    "main.js": "/static/js/main.1791ddd1.js",
+    "main.js": "/static/js/main.9e96f315.js",
     "static/media/imagem-topo.jpg": "/static/media/imagem-topo.eed8bfd8eace27f25ac0.jpg",
     "static/media/homemaranha.PNG": "/static/media/homemaranha.ed1e38d5c990b15539d3.PNG",
     "static/media/portifolio.PNG": "/static/media/portifolio.b9b830e3bc5d973c81fe.PNG",
+    "static/media/nlw.png": "/static/media/nlw.462751ea90f1bddf96d9.png",
     "static/media/ShoppingCart.PNG": "/static/media/ShoppingCart.c03c66cae2052ef52b88.PNG",
     "static/media/appdukeza.PNG": "/static/media/appdukeza.120d949103994ac9e07f.PNG",
     "static/media/imagemperfil.jpg": "/static/media/imagemperfil.91f12b5f3b0c65d7da61.jpg",
     "static/media/pokedex.png": "/static/media/pokedex.cca078d9227a6ac5fbf0.png",
     "static/media/bateria.PNG": "/static/media/bateria.2af125807135a1b96d91.PNG",
+    "static/media/dashboard.PNG": "/static/media/dashboard.cf1c48067064922913dc.PNG",
     "static/media/gitfinder.PNG": "/static/media/gitfinder.4b81b3747ee753a5062d.PNG",
     "static/media/dados.png": "/static/media/dados.2b8457e8ca880de034f3.png",
     "static/media/login.PNG": "/static/media/login.38680f91cf9ade8eeb62.PNG",
@@ -27,10 +29,10 @@
     "static/media/linkedin-square-icon.svg": "/static/media/linkedin-square-icon.62cdffc5babbaf99899c8fee18e36b65.svg",
     "index.html": "/index.html",
     "main.4616fe0b.css.map": "/static/css/main.4616fe0b.css.map",
-    "main.1791ddd1.js.map": "/static/js/main.1791ddd1.js.map"
+    "main.9e96f315.js.map": "/static/js/main.9e96f315.js.map"
   },
   "entrypoints": [
     "static/css/main.4616fe0b.css",
-    "static/js/main.1791ddd1.js"
+    "static/js/main.9e96f315.js"
   ]
 }
