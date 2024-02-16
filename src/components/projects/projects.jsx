@@ -11,6 +11,8 @@ import Dukeza from "../../assets/appdukeza.PNG";
 import port from "../../assets/portifolio.PNG";
 import login from "../../assets/login.PNG";
 import carrinho from "../../assets/ShoppingCart.PNG"
+import dashboard from '../../assets/dashboard.PNG'
+import nlw from '../../assets/nlw.png'
 import './projects.css'
 
 export const ProjectsSession = () => {
@@ -18,11 +20,25 @@ export const ProjectsSession = () => {
 
   const projectsData = [
     {
+      src: dashboard,
+      alt: "Dashboard de um Sistema Financeiro",
+      description: "Este é um projeto de sistema financeiro desenvolvido como parte de um teste técnico.",  
+      deploy: "https://teste-tecnico-jr-front-end.vercel.app/",    
+      repositorio: "https://github.com/howtrojan/Teste-Tecnico-Jr-Front-End"
+    },
+    {
       src: carrinho,
       alt: "Carrinho de Compras com React JS",
       description: "Carrinho de compras desenvolvido utilizando React JS.",  
       deploy: "https://shopping-cart-seven-flax.vercel.app/",    
       repositorio: "https://github.com/howtrojan/shopping-cart"
+    },
+    {
+      src: nlw,
+      alt: "NLW Expert (React)",
+      description: "Essa aplicação foi desenvolvida durante o NLW Experts da Rocketseat utilizando React, TypeScript, Tailwind e a SpeechRecognition API.",  
+      deploy: " ",    
+      repositorio: "https://github.com/howtrojan/nlw-expert-react"
     },
     {
       src: login,
