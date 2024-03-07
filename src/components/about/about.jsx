@@ -38,7 +38,7 @@ export const About = () => {
       <div>
         <p>
           Olá, sou André Santos Braga, tenho 31 anos e estou em transição de
-          carreira. Atualmente Curso Análise e desencolvimento de sistemas. Procuro desafios e oportunidades que me permitam crescer
+          carreira. Atualmente Curso Análise e desenvolvimento de sistemas. Procuro desafios e oportunidades que me permitam crescer
           profissionalmente. 
         </p>
       </div>      
