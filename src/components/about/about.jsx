@@ -38,13 +38,8 @@ export const About = () => {
       <div>
         <p>
           Olá, sou André Santos Braga, tenho 31 anos e estou em transição de
-          carreira. Apaixonado por tecnologia, foco minha busca por
-          oportunidades na área de Front-End. Tenho habilidades em HTML, CSS,
-          Javascript, Bootstrap e React. Estudo diariamente, sempre buscando
-          evoluir. Meu objetivo é me aperfeiçoar no Front-End e, futuramente,
-          aprender Back-End para me tornar um desenvolvedor FullStack. Estou
-          aberto a desafios e oportunidades que me permitam crescer
-          profissionalmente.
+          carreira. Atualmente Curso Análise e desencolvimento de sistemas. Procuro desafios e oportunidades que me permitam crescer
+          profissionalmente. 
         </p>
       </div>      
     </div>
